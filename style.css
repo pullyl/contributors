@@ -1,0 +1,27 @@
+#user {
+	width: 170px;
+	height: 350px;
+	padding: 10px;
+	margin: 20px;
+	float: left;
+	text-align: center;
+}
+
+#user h1{
+	padding: 5px;
+	line-height: 30px;
+}
+
+#user img{
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	border: 3px solid #105C7D;
+}
+
+#contributors{
+	display: flex;
+    flex-wrap: wrap; /* optional. only if you want the items to wrap */
+    justify-content: center; /* for horizontal alignment */
+    align-items: center; /* for vertical alignment */
+}
